@@ -10,5 +10,6 @@ jobs:
               with:
                   distribution: 'temurin'
                   java-version: '17'
+                  cache: maven
             - name: Run Test
               run: mvn -B test
