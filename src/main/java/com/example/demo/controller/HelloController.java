@@ -11,7 +11,7 @@ public class HelloController {
 	@Autowired
 	HelloService helloService;
 	
-	@GetMapping("/hello")
+	@GetMapping("/github")
 	public String hello() {
 		int num = helloService.calc(10, 20);
 		System.out.println(num);
