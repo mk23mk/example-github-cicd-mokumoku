@@ -13,7 +13,7 @@ class HelloServiceTest {
 
 	@Test
 	void test() {
-		assertEquals(31, helloService.calc(10, 20));
+		assertEquals(30, helloService.calc(10, 20));
 	}
 
 }
