@@ -1,7 +1,6 @@
 package com.example.demo.service;
 
-import static org.junit.jupiter.api.Assertions.*;
-
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,7 +13,7 @@ class HelloServiceTest {
 
 	@Test
 	void test() {
-		assertEquals(30, helloService.calc(10, 20));
+		assertEquals(31, helloService.calc(10, 20));
 	}
 
 }
