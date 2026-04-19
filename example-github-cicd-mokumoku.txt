@@ -1,0 +1,2 @@
+P.76
+docker run --rm -v "$(pwd):$(pwd)" -w "$(pwd)" rhysd/actionlint:latest
