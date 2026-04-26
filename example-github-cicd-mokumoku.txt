@@ -1,2 +1,11 @@
 P.76
 docker run --rm -v "$(pwd):$(pwd)" -w "$(pwd)" rhysd/actionlint:latest
+
+2026/4/19
+JUnit単体テストを追加
+4.5節のactionlintを追加
+
+2026/4/26
+■目標
+・checkstyleをパイプラインに組み込む
+・SonarQubeをパイプラインに組み込む
